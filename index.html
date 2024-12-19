@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="style.css" media="screen">
 </head>
 <body class="page">
   <header class="logo-container">
@@ -16,9 +17,11 @@
   </header>
   <main class="main-page">
     <section id="add-element-container">
-      <label class="add-element-container__label" for="new-task-id">Add Item</label>
+      <h1 class="add-element-container__title">
+        <label class="add-element-container__label" for="new-task-id">Add Item</label>
+      </h1>
       <form action="#" class="add-element-container__form">
-        <input id="new-task-id"class="new-task add-element-container__input-text" type="text">
+        <input id="new-task-id" class="new-task add-element-container__input-text" type="text">
         <button class="add-element-container__button" type="button">Add</button>
       </form>
     </section>

@@ -58,6 +58,10 @@ button{
   outline: none;
 }
 
+.add-element-container__title{
+  margin: 0;
+}
+
 .add-element-container__button, 
 .task-list__button-delete, 
 .task-list__button-edit {
